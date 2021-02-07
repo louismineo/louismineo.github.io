@@ -1,8 +1,8 @@
 <?php
 
 // configure
-$from = 'louismineopersonalprojects@gmail.com'; //'Demo contact form <demo@domain.com>'
-$sendTo = 'louismineo@gmail.com'; // Add Your Email
+$from = 'Demo contact form <demo@domain.com>'; //'Demo contact form <demo@domain.com>'
+$sendTo = 'Demo contact form <louismineo@gmail.com>'; // Add Your Email
 $subject = 'New message from contact form';
 $fields = array('name' => 'Name', 'subject' => 'Subject', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in the email
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';

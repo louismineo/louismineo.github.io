@@ -172,7 +172,7 @@ $(window).on("load",function (){
 
     });
 
-
+    /*
     // contact form validator
     $('#contact-form').validator();
 
@@ -199,5 +199,5 @@ $(window).on("load",function (){
             return false;
         }
     });
-
+    */
 });

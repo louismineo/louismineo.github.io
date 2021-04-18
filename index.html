@@ -96,7 +96,7 @@
 	    				<h1 class="cd-headline clip">
 				            <span class="blc">I Am </span>
 				            <span class="cd-words-wrapper">
-				              <b class="is-visible">Louis Mineo</b>
+				              <b class="is-visible">Louis M.</b>
 				              <b>a Tinkerer</b>
 							  <b>a Maker</b>
 							  <b>a Learner</b>
@@ -630,6 +630,29 @@
     	<!-- End Blog ====
     	======================================= -->
 
+		<!-- modify this form HTML and place wherever you want your form 
+		
+		<form
+		action="https://formspree.io/f/myylzwdg"
+		method="POST"
+		>
+		<label>
+		Your email:
+		<input type="email" name="_replyto">
+		</label>
+		<label>
+		Your message:
+		<textarea name="message"></textarea>
+		</label>
+
+		your other form fields go here 
+		
+	
+
+		<button type="submit">Send</button>
+		</form> 
+	
+		-->
 
     	<!-- =====================================
     	==== Start Contact -->
@@ -642,7 +665,7 @@
     					<h4 class="title">Get In Touch</h4>
     				</div>
 
-    				<form class="form full-width" id="contact-form" method="post" action="contact.php">
+    				<form class="form full-width" id="contact-form" method="POST" action="https://formspree.io/f/myylzwdg">
                         <div class="messages"></div>
 
                         <div class="controls">
@@ -656,14 +679,14 @@
 
                                  <div class="col-md-6">
                                     <div class="form-group">
-                                        <input id="form_email" type="email" name="email" placeholder="Email *" required="required">
+                                        <input id="form_email" type="email" name="_replyto" placeholder="Email *" required="required">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input id="form_subject" type="text" name="subject" placeholder="Subject">
+                                        <input id="form_subject" type="text" name="Subject" placeholder="Subject">
                                     </div>
                                 </div>
                             </div>
@@ -675,15 +698,15 @@
                                 </div>
                             </div>
                             <div class="row">
-                            	<div class="col-md-12">
-                                    <div class="form-group">
-                                        <span class="buton buton-lg">
-	                                    	<button type="submit" front="Send Message" back="&#xf35d;"></button>
+								<div class="col-md-12">
+									<div class="form-group">
+										<span class="buton buton-lg">
+											<button type="submit" front="Send Message" back="&#xf35d;"></button>
 										</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+									</div>
+								</div>
+							</div>
+                        </div>	
                     </form>
 
                     <!--<div class="info full-width">
@@ -739,7 +762,7 @@
 
        
         <!-- jQuery -->
-		<script src="js/jquery-3.0.0.min.js"></script>
+		<script src="js/jquery-3.0.0.min.js"></script> 
 		<script src="js/jquery-migrate-3.0.0.min.js"></script>
 
 		<!-- popper.min -->
